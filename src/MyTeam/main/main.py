@@ -4,9 +4,10 @@ def main():
 
     # parse config
 
+    # init dataset
+    
     # init agents and team
 
-    # init dataset
 
     # inference
 

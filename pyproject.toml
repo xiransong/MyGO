@@ -9,6 +9,8 @@ dependencies = [
     "datasets>=3.2.0",
     "litellm[proxy]>=1.55.2",
     "ollama>=0.4.4",
+    "pandas>=2.2.3",
+    "tyro>=0.9.2",
 ]
 
 [build-system]
