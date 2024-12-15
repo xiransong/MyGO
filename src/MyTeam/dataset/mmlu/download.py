@@ -17,9 +17,9 @@ def main():
     args = tyro.cli(Args)
     print(args)
 
-    cache_dir = osp.join(args.all_data_root, "dataset/raw-mmlu")
-    ensure_dir(cache_dir)
-    download(cache_dir)
+    dir = osp.join(args.all_data_root, "dataset/raw-mmlu")
+    ensure_dir(dir)
+    download(dir)
 
 
 if __name__ == "__main__":
